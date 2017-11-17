@@ -1,5 +1,5 @@
 NAME=syseleven/python-dev
-TAG=2.7
+TAG=2.7.6
 
 build:
 	docker build -t "$(NAME):$(TAG)" .
